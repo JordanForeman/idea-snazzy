@@ -1,15 +1,15 @@
 <scheme name="Snazzy" version="142" parent_scheme="Default">
   <option name="FONT_SCALE" value="1.0" />
   <metaInfo>
-    <property name="created">2018-05-31T16:03:27</property>
+    <property name="created">2018-06-04T08:52:40</property>
     <property name="ide">idea</property>
     <property name="ideVersion">2018.1.0.0</property>
-    <property name="modified">2018-05-31T16:03:38</property>
+    <property name="modified">2018-06-04T08:52:49</property>
     <property name="originalScheme">Snazzy</property>
   </metaInfo>
   <option name="LINE_SPACING" value="1.2" />
-  <option name="EDITOR_FONT_SIZE" value="12" />
-  <option name="EDITOR_FONT_NAME" value="Fira Code iScript" />
+  <option name="EDITOR_FONT_SIZE" value="13" />
+  <option name="EDITOR_FONT_NAME" value="Operator Mono Book" />
   <option name="EDITOR_LIGATURES" value="true" />
   <colors>
     <option name="ADDED_LINES_COLOR" value="5af78e" />
@@ -35,6 +35,23 @@
     <option name="WHITESPACES_MODIFIED_LINES_COLOR" value="9aedfe" />
   </colors>
   <attributes>
+    <option name="ANNOTATION_NAME_ATTRIBUTES">
+      <value>
+        <option name="FOREGROUND" value="9aedfe" />
+        <option name="FONT_TYPE" value="3" />
+        <option name="EFFECT_TYPE" value="1" />
+      </value>
+    </option>
+    <option name="BREAKPOINT_ATTRIBUTES">
+      <value>
+        <option name="BACKGROUND" value="53576b" />
+      </value>
+    </option>
+    <option name="CLASS_NAME_ATTRIBUTES">
+      <value>
+        <option name="FOREGROUND" value="5af78e" />
+      </value>
+    </option>
     <option name="CONSOLE_ERROR_OUTPUT">
       <value>
         <option name="FOREGROUND" value="ff5c57" />
@@ -43,6 +60,18 @@
     <option name="CONSOLE_SYSTEM_OUTPUT">
       <value>
         <option name="FOREGROUND" value="9aedfe" />
+      </value>
+    </option>
+    <option name="CONSTRUCTOR_CALL_ATTRIBUTES">
+      <value>
+        <option name="FOREGROUND" value="5af78e" />
+        <option name="FONT_TYPE" value="1" />
+      </value>
+    </option>
+    <option name="CONSTRUCTOR_DECLARATION_ATTRIBUTES">
+      <value>
+        <option name="FOREGROUND" value="5af78e" />
+        <option name="FONT_TYPE" value="1" />
       </value>
     </option>
     <option name="CTRL_CLICKABLE">
@@ -111,6 +140,11 @@
         <option name="BACKGROUND" value="53576b" />
       </value>
     </option>
+    <option name="IMPLICIT_ANONYMOUS_CLASS_PARAMETER_ATTRIBUTES">
+      <value>
+        <option name="FOREGROUND" value="9aedfe" />
+      </value>
+    </option>
     <option name="INFO_ATTRIBUTES">
       <value>
         <option name="EFFECT_COLOR" value="f3f99d" />
@@ -120,6 +154,39 @@
     <option name="INJECTED_LANGUAGE_FRAGMENT">
       <value>
         <option name="FOREGROUND" value="9aedfe" />
+      </value>
+    </option>
+    <option name="INSTANCE_FIELD_ATTRIBUTES">
+      <value>
+        <option name="FOREGROUND" value="f3f99d" />
+      </value>
+    </option>
+    <option name="INTERFACE_NAME_ATTRIBUTES">
+      <value>
+        <option name="FOREGROUND" value="5af78e" />
+      </value>
+    </option>
+    <option name="JAVA_INVALID_STRING_ESCAPE">
+      <value>
+        <option name="FOREGROUND" value="ff5c57" />
+      </value>
+    </option>
+    <option name="JAVA_KEYWORD">
+      <value>
+        <option name="FOREGROUND" value="ff6ac1" />
+        <option name="FONT_TYPE" value="1" />
+      </value>
+    </option>
+    <option name="JAVA_STRING">
+      <value>
+        <option name="FOREGROUND" value="5af78e" />
+        <option name="FONT_TYPE" value="1" />
+      </value>
+    </option>
+    <option name="JAVA_VALID_STRING_ESCAPE">
+      <value>
+        <option name="FOREGROUND" value="9aedfe" />
+        <option name="FONT_TYPE" value="1" />
       </value>
     </option>
     <option name="JS.CLASS">
@@ -237,6 +304,11 @@
         <option name="FONT_TYPE" value="1" />
       </value>
     </option>
+    <option name="LOCAL_VARIABLE_ATTRIBUTES">
+      <value>
+        <option name="FOREGROUND" value="f3f99d" />
+      </value>
+    </option>
     <option name="MARKDOWN_BOLD_MARKER">
       <value>
         <option name="FOREGROUND" value="ff6ac1" />
@@ -307,6 +379,21 @@
       <value>
         <option name="EFFECT_COLOR" value="ff5c57" />
         <option name="EFFECT_TYPE" value="3" />
+      </value>
+    </option>
+    <option name="MATCHED_BRACE_ATTRIBUTES">
+      <value>
+        <option name="BACKGROUND" value="53576b" />
+      </value>
+    </option>
+    <option name="METHOD_CALL_ATTRIBUTES">
+      <value>
+        <option name="FOREGROUND" value="9aedfe" />
+      </value>
+    </option>
+    <option name="METHOD_DECLARATION_ATTRIBUTES">
+      <value>
+        <option name="FOREGROUND" value="5af78e" />
       </value>
     </option>
     <option name="NOT_USED_ELEMENT_ATTRIBUTES">
@@ -392,6 +479,112 @@
         <option name="BACKGROUND" value="f3f99d" />
       </value>
     </option>
+    <option name="SQL_COLUMN">
+      <value>
+        <option name="FOREGROUND" value="ff6ac1" />
+        <option name="FONT_TYPE" value="1" />
+      </value>
+    </option>
+    <option name="SQL_DATABASE_OBJECT">
+      <value>
+        <option name="FOREGROUND" value="f3f99d" />
+      </value>
+    </option>
+    <option name="SQL_KEYWORD">
+      <value>
+        <option name="FOREGROUND" value="9aedfe" />
+        <option name="FONT_TYPE" value="1" />
+      </value>
+    </option>
+    <option name="SQL_LOCAL_ALIAS">
+      <value>
+        <option name="FOREGROUND" value="5af78e" />
+      </value>
+    </option>
+    <option name="SQL_NUMBER">
+      <value>
+        <option name="FOREGROUND" value="ff6ac1" />
+      </value>
+    </option>
+    <option name="SQL_SCHEMA">
+      <value>
+        <option name="FOREGROUND" value="ff6ac1" />
+      </value>
+    </option>
+    <option name="SQL_STRING">
+      <value>
+        <option name="FOREGROUND" value="5af78e" />
+        <option name="FONT_TYPE" value="1" />
+      </value>
+    </option>
+    <option name="SQL_TABLE">
+      <value>
+        <option name="FOREGROUND" value="5af78e" />
+      </value>
+    </option>
+    <option name="STATIC_FIELD_ATTRIBUTES">
+      <value>
+        <option name="FOREGROUND" value="ff6ac1" />
+        <option name="FONT_TYPE" value="2" />
+      </value>
+    </option>
+    <option name="STATIC_FINAL_FIELD_ATTRIBUTES">
+      <value>
+        <option name="FOREGROUND" value="9aedfe" />
+        <option name="FONT_TYPE" value="3" />
+      </value>
+    </option>
+    <option name="Scala Invalid escape in string">
+      <value>
+        <option name="FOREGROUND" value="ff5c57" />
+        <option name="BACKGROUND" value="53576b" />
+      </value>
+    </option>
+    <option name="Scala Keyword">
+      <value>
+        <option name="FOREGROUND" value="9aedfe" />
+        <option name="FONT_TYPE" value="1" />
+      </value>
+    </option>
+    <option name="Scala Number">
+      <value>
+        <option name="FOREGROUND" value="ff6ac1" />
+        <option name="FONT_TYPE" value="1" />
+      </value>
+    </option>
+    <option name="Scala String">
+      <value>
+        <option name="FOREGROUND" value="5af78e" />
+        <option name="FONT_TYPE" value="1" />
+      </value>
+    </option>
+    <option name="Scala Valid escape in string">
+      <value>
+        <option name="FOREGROUND" value="9aedfe" />
+        <option name="FONT_TYPE" value="1" />
+      </value>
+    </option>
+    <option name="ScalaDoc html escape sequences">
+      <value>
+        <option name="BACKGROUND" value="53576b" />
+      </value>
+    </option>
+    <option name="ScalaDoc html tag">
+      <value>
+        <option name="BACKGROUND" value="53576b" />
+      </value>
+    </option>
+    <option name="ScalaDoc wiki syntax elements">
+      <value>
+        <option name="BACKGROUND" value="53576b" />
+      </value>
+    </option>
+    <option name="StandardF Java Collection">
+      <value>
+        <option name="FOREGROUND" value="5af78e" />
+        <option name="FONT_TYPE" value="1" />
+      </value>
+    </option>
     <option name="TEMPLATE_VARIABLE_ATTRIBUTES">
       <value>
         <option name="FOREGROUND" value="5af78e" />
@@ -414,6 +607,12 @@
       <value>
         <option name="FOREGROUND" value="5af78e" />
         <option name="FONT_TYPE" value="3" />
+      </value>
+    </option>
+    <option name="TYPE_PARAMETER_NAME_ATTRIBUTES">
+      <value>
+        <option name="FOREGROUND" value="f3f99d" />
+        <option name="FONT_TYPE" value="1" />
       </value>
     </option>
     <option name="TYPO">
