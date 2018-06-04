@@ -13,6 +13,8 @@ I just threw this together for myself, so not all languages are supported yet. F
 * JavaScript
 * JSON
 * Markdown
+* Scala
+* SQL
 * _...more coming soon!_
 
 ## Related
