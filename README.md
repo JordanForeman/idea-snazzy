@@ -15,6 +15,7 @@ I just threw this together for myself, so not all languages are supported yet. F
 * Markdown
 * Scala
 * SQL
+* YAML
 * _...more coming soon!_
 
 ## Related
