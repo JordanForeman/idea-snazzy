@@ -1,10 +1,10 @@
 <scheme name="Snazzy" version="142" parent_scheme="Default">
   <option name="FONT_SCALE" value="1.0" />
   <metaInfo>
-    <property name="created">2018-06-04T08:52:40</property>
+    <property name="created">2018-06-06T09:10:48</property>
     <property name="ide">idea</property>
     <property name="ideVersion">2018.1.0.0</property>
-    <property name="modified">2018-06-04T08:52:49</property>
+    <property name="modified">2018-06-06T09:11:00</property>
     <property name="originalScheme">Snazzy</property>
   </metaInfo>
   <option name="LINE_SPACING" value="1.2" />
@@ -20,6 +20,11 @@
     <option name="DELETED_LINES_COLOR" value="ff5c57" />
     <option name="FOLDED_TEXT_BORDER_COLOR" value="53576b" />
     <option name="GUTTER_BACKGROUND" value="1c1f2b" />
+    <option name="HTML_TAG_TREE_LEVEL0" value="ff5c57" />
+    <option name="HTML_TAG_TREE_LEVEL1" value="f3f99d" />
+    <option name="HTML_TAG_TREE_LEVEL2" value="5af78e" />
+    <option name="HTML_TAG_TREE_LEVEL3" value="9aedfe" />
+    <option name="HTML_TAG_TREE_LEVEL5" value="ff6ac1" />
     <option name="INDENT_GUIDE" value="3c3f41" />
     <option name="MODIFIED_LINES_COLOR" value="9aedfe" />
     <option name="RIGHT_MARGIN_COLOR" value="3c3f41" />
@@ -52,9 +57,19 @@
         <option name="FOREGROUND" value="5af78e" />
       </value>
     </option>
+    <option name="CONSOLE_BLACK_OUTPUT">
+      <value>
+        <option name="FOREGROUND" value="1c1f2b" />
+      </value>
+    </option>
     <option name="CONSOLE_ERROR_OUTPUT">
       <value>
         <option name="FOREGROUND" value="ff5c57" />
+      </value>
+    </option>
+    <option name="CONSOLE_NORMAL_OUTPUT">
+      <value>
+        <option name="FOREGROUND" value="eff0eb" />
       </value>
     </option>
     <option name="CONSOLE_SYSTEM_OUTPUT">
@@ -106,7 +121,7 @@
     <option name="FOLDED_TEXT_ATTRIBUTES">
       <value>
         <option name="FOREGROUND" value="282a36" />
-        <option name="BACKGROUND" value="eff0eb" />
+        <option name="BACKGROUND" value="53576b" />
         <option name="FONT_TYPE" value="1" />
         <option name="EFFECT_TYPE" value="1" />
       </value>
@@ -124,6 +139,33 @@
         <option name="EFFECT_COLOR" value="ff5c57" />
         <option name="ERROR_STRIPE_COLOR" value="ff5c57" />
         <option name="EFFECT_TYPE" value="2" />
+      </value>
+    </option>
+    <option name="HTML_ATTRIBUTE_NAME">
+      <value>
+        <option name="FOREGROUND" value="9aedfe" />
+        <option name="FONT_TYPE" value="1" />
+      </value>
+    </option>
+    <option name="HTML_ATTRIBUTE_VALUE">
+      <value>
+        <option name="FOREGROUND" value="5af78e" />
+        <option name="FONT_TYPE" value="1" />
+      </value>
+    </option>
+    <option name="HTML_ENTITY_REFERENCE">
+      <value>
+        <option name="FOREGROUND" value="9aedfe" />
+        <option name="FONT_TYPE" value="1" />
+      </value>
+    </option>
+    <option name="HTML_TAG">
+      <value />
+    </option>
+    <option name="HTML_TAG_NAME">
+      <value>
+        <option name="FOREGROUND" value="ff6ac1" />
+        <option name="FONT_TYPE" value="1" />
       </value>
     </option>
     <option name="HYPERLINK_ATTRIBUTES">
@@ -175,6 +217,11 @@
       <value>
         <option name="FOREGROUND" value="ff6ac1" />
         <option name="FONT_TYPE" value="1" />
+      </value>
+    </option>
+    <option name="JAVA_NUMBER">
+      <value>
+        <option name="FOREGROUND" value="ff6ac1" />
       </value>
     </option>
     <option name="JAVA_STRING">
@@ -670,6 +717,39 @@
       <value>
         <option name="FOREGROUND" value="ff6ac1" />
         <option name="FONT_TYPE" value="1" />
+      </value>
+    </option>
+    <option name="YAML_SCALAR_DSTRING">
+      <value>
+        <option name="FOREGROUND" value="5af78e" />
+        <option name="FONT_TYPE" value="1" />
+      </value>
+    </option>
+    <option name="YAML_SCALAR_KEY">
+      <value>
+        <option name="FOREGROUND" value="ff6ac1" />
+        <option name="FONT_TYPE" value="1" />
+      </value>
+    </option>
+    <option name="YAML_SCALAR_LIST">
+      <value>
+        <option name="FOREGROUND" value="f3f99d" />
+      </value>
+    </option>
+    <option name="YAML_SCALAR_STRING">
+      <value>
+        <option name="FOREGROUND" value="5af78e" />
+        <option name="FONT_TYPE" value="1" />
+      </value>
+    </option>
+    <option name="YAML_SCALAR_VALUE">
+      <value>
+        <option name="FOREGROUND" value="f3f99d" />
+      </value>
+    </option>
+    <option name="YAML_SIGN">
+      <value>
+        <option name="FOREGROUND" value="9aedfe" />
       </value>
     </option>
   </attributes>
