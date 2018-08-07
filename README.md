@@ -4,7 +4,7 @@
 
 ## Install
 
-Download either the `.jar` or `.ics` file and import into IntelliJ (or other JetBrains IDEs) using the built-in color scheme manager.
+Download the `.ics` file and import into IntelliJ (or other JetBrains IDEs) using the built-in color scheme manager.
 
 ## Language Support
 
