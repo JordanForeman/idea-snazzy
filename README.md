@@ -11,6 +11,8 @@ Download either the `.jar` or `.ics` file and import into IntelliJ (or other Jet
 I just threw this together for myself, so not all languages are supported yet. Feel free to PR any updates you'd like to see here:
 
 * JavaScript
+* Java
+* Ruby
 * JSON
 * Markdown
 * Scala

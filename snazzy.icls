@@ -1,16 +1,11 @@
 <scheme name="Snazzy" version="142" parent_scheme="Default">
-  <option name="FONT_SCALE" value="1.0" />
   <metaInfo>
-    <property name="created">2018-06-06T09:10:48</property>
+    <property name="created">2018-08-07T10:11:53</property>
     <property name="ide">idea</property>
-    <property name="ideVersion">2018.1.0.0</property>
-    <property name="modified">2018-06-06T09:11:00</property>
+    <property name="ideVersion">2018.2.0.0</property>
+    <property name="modified">2018-08-07T10:12:05</property>
     <property name="originalScheme">Snazzy</property>
   </metaInfo>
-  <option name="LINE_SPACING" value="1.2" />
-  <option name="EDITOR_FONT_SIZE" value="13" />
-  <option name="EDITOR_FONT_NAME" value="Operator Mono Book" />
-  <option name="EDITOR_LIGATURES" value="true" />
   <colors>
     <option name="ADDED_LINES_COLOR" value="5af78e" />
     <option name="ANNOTATIONS_COLOR" value="282a36" />
@@ -59,7 +54,17 @@
     </option>
     <option name="CONSOLE_BLACK_OUTPUT">
       <value>
-        <option name="FOREGROUND" value="1c1f2b" />
+        <option name="FOREGROUND" value="53576b" />
+      </value>
+    </option>
+    <option name="CONSOLE_BLUE_BRIGHT_OUTPUT">
+      <value>
+        <option name="FOREGROUND" value="9aedfe" />
+      </value>
+    </option>
+    <option name="CONSOLE_BLUE_OUTPUT">
+      <value>
+        <option name="FOREGROUND" value="9aedfe" />
       </value>
     </option>
     <option name="CONSOLE_ERROR_OUTPUT">
@@ -67,14 +72,65 @@
         <option name="FOREGROUND" value="ff5c57" />
       </value>
     </option>
-    <option name="CONSOLE_NORMAL_OUTPUT">
+    <option name="CONSOLE_GRAY_OUTPUT">
       <value>
         <option name="FOREGROUND" value="eff0eb" />
+      </value>
+    </option>
+    <option name="CONSOLE_GREEN_BRIGHT_OUTPUT">
+      <value>
+        <option name="FOREGROUND" value="5af78e" />
+      </value>
+    </option>
+    <option name="CONSOLE_GREEN_OUTPUT">
+      <value>
+        <option name="FOREGROUND" value="5af78e" />
+      </value>
+    </option>
+    <option name="CONSOLE_MAGENTA_BRIGHT_OUTPUT">
+      <value>
+        <option name="FOREGROUND" value="ff6ac1" />
+      </value>
+    </option>
+    <option name="CONSOLE_MAGENTA_OUTPUT">
+      <value>
+        <option name="FOREGROUND" value="ff6ac1" />
+      </value>
+    </option>
+    <option name="CONSOLE_NORMAL_OUTPUT">
+      <value>
+        <option name="FOREGROUND" value="ffffff" />
+      </value>
+    </option>
+    <option name="CONSOLE_RED_BRIGHT_OUTPUT">
+      <value>
+        <option name="FOREGROUND" value="ff5c57" />
+      </value>
+    </option>
+    <option name="CONSOLE_RED_OUTPUT">
+      <value>
+        <option name="FOREGROUND" value="ff5c57" />
       </value>
     </option>
     <option name="CONSOLE_SYSTEM_OUTPUT">
       <value>
         <option name="FOREGROUND" value="9aedfe" />
+      </value>
+    </option>
+    <option name="CONSOLE_USER_INPUT">
+      <value>
+        <option name="FOREGROUND" value="5af78e" />
+        <option name="FONT_TYPE" value="2" />
+      </value>
+    </option>
+    <option name="CONSOLE_YELLOW_BRIGHT_OUTPUT">
+      <value>
+        <option name="FOREGROUND" value="f3f99d" />
+      </value>
+    </option>
+    <option name="CONSOLE_YELLOW_OUTPUT">
+      <value>
+        <option name="FOREGROUND" value="f3f99d" />
       </value>
     </option>
     <option name="CONSTRUCTOR_CALL_ATTRIBUTES">
@@ -95,6 +151,132 @@
         <option name="FONT_TYPE" value="2" />
         <option name="EFFECT_COLOR" value="9aedfe" />
         <option name="EFFECT_TYPE" value="1" />
+      </value>
+    </option>
+    <option name="CUSTOM_INVALID_STRING_ESCAPE_ATTRIBUTES">
+      <value>
+        <option name="FOREGROUND" value="ffffff" />
+        <option name="BACKGROUND" value="ff5c59" />
+      </value>
+    </option>
+    <option name="CUSTOM_KEYWORD1_ATTRIBUTES">
+      <value>
+        <option name="FOREGROUND" value="9aedfe" />
+        <option name="FONT_TYPE" value="1" />
+      </value>
+    </option>
+    <option name="CUSTOM_KEYWORD2_ATTRIBUTES">
+      <value>
+        <option name="FOREGROUND" value="ff6ac1" />
+        <option name="FONT_TYPE" value="1" />
+      </value>
+    </option>
+    <option name="CUSTOM_KEYWORD3_ATTRIBUTES">
+      <value>
+        <option name="FOREGROUND" value="f3f99d" />
+        <option name="FONT_TYPE" value="1" />
+      </value>
+    </option>
+    <option name="CUSTOM_KEYWORD4_ATTRIBUTES">
+      <value>
+        <option name="FOREGROUND" value="ff5c57" />
+        <option name="FONT_TYPE" value="1" />
+      </value>
+    </option>
+    <option name="CUSTOM_NUMBER_ATTRIBUTES">
+      <value>
+        <option name="FOREGROUND" value="9aecfc" />
+      </value>
+    </option>
+    <option name="CUSTOM_STRING_ATTRIBUTES">
+      <value>
+        <option name="FOREGROUND" value="5af78e" />
+        <option name="FONT_TYPE" value="1" />
+      </value>
+    </option>
+    <option name="CUSTOM_VALID_STRING_ESCAPE_ATTRIBUTES">
+      <value>
+        <option name="FOREGROUND" value="9aedfe" />
+        <option name="FONT_TYPE" value="1" />
+      </value>
+    </option>
+    <option name="DEFAULT_ATTRIBUTE">
+      <value>
+        <option name="FOREGROUND" value="9aedfe" />
+        <option name="FONT_TYPE" value="1" />
+      </value>
+    </option>
+    <option name="DEFAULT_CONSTANT">
+      <value>
+        <option name="FOREGROUND" value="ff6ac1" />
+        <option name="FONT_TYPE" value="3" />
+      </value>
+    </option>
+    <option name="DEFAULT_DOC_MARKUP">
+      <value>
+        <option name="BACKGROUND" value="3c3f41" />
+      </value>
+    </option>
+    <option name="DEFAULT_ENTITY">
+      <value>
+        <option name="FOREGROUND" value="9aedfe" />
+        <option name="FONT_TYPE" value="1" />
+      </value>
+    </option>
+    <option name="DEFAULT_IDENTIFIER">
+      <value>
+        <option name="FOREGROUND" value="bdbeb9" />
+      </value>
+    </option>
+    <option name="DEFAULT_INSTANCE_FIELD">
+      <value>
+        <option name="FOREGROUND" value="ff6ac1" />
+        <option name="FONT_TYPE" value="1" />
+      </value>
+    </option>
+    <option name="DEFAULT_INVALID_STRING_ESCAPE">
+      <value>
+        <option name="FOREGROUND" value="ffffff" />
+        <option name="BACKGROUND" value="ff5c57" />
+      </value>
+    </option>
+    <option name="DEFAULT_KEYWORD">
+      <value>
+        <option name="FOREGROUND" value="9aecfc" />
+        <option name="FONT_TYPE" value="1" />
+      </value>
+    </option>
+    <option name="DEFAULT_METADATA">
+      <value>
+        <option name="FOREGROUND" value="f3f99d" />
+      </value>
+    </option>
+    <option name="DEFAULT_NUMBER">
+      <value>
+        <option name="FOREGROUND" value="9aedfe" />
+      </value>
+    </option>
+    <option name="DEFAULT_STATIC_FIELD">
+      <value>
+        <option name="FOREGROUND" value="ff6ac1" />
+        <option name="FONT_TYPE" value="2" />
+      </value>
+    </option>
+    <option name="DEFAULT_STRING">
+      <value>
+        <option name="FOREGROUND" value="5af78e" />
+        <option name="FONT_TYPE" value="1" />
+      </value>
+    </option>
+    <option name="DEFAULT_TEMPLATE_LANGUAGE_COLOR">
+      <value>
+        <option name="BACKGROUND" value="3c3f41" />
+      </value>
+    </option>
+    <option name="DEFAULT_VALID_STRING_ESCAPE">
+      <value>
+        <option name="FOREGROUND" value="9aedfe" />
+        <option name="FONT_TYPE" value="1" />
       </value>
     </option>
     <option name="DELETED_TEXT_ATTRIBUTES">
@@ -356,6 +538,16 @@
         <option name="FOREGROUND" value="f3f99d" />
       </value>
     </option>
+    <option name="LOG_ERROR_OUTPUT">
+      <value>
+        <option name="FOREGROUND" value="ff5c57" />
+      </value>
+    </option>
+    <option name="LOG_WARNING_OUTPUT">
+      <value>
+        <option name="FOREGROUND" value="f3f99d" />
+      </value>
+    </option>
     <option name="MARKDOWN_BOLD_MARKER">
       <value>
         <option name="FOREGROUND" value="ff6ac1" />
@@ -517,6 +709,158 @@
     <option name="REGEXP.REDUNDANT_ESCAPE">
       <value>
         <option name="FOREGROUND" value="ff5c57" />
+        <option name="FONT_TYPE" value="1" />
+      </value>
+    </option>
+    <option name="RUBY_BAD_CHARACTER">
+      <value>
+        <option name="BACKGROUND" value="ff5c57" />
+      </value>
+    </option>
+    <option name="RUBY_COMMENT">
+      <value>
+        <option name="FOREGROUND" value="bdbeb9" />
+        <option name="FONT_TYPE" value="2" />
+      </value>
+    </option>
+    <option name="RUBY_CONSTANT">
+      <value>
+        <option name="FOREGROUND" value="9aedfe" />
+        <option name="FONT_TYPE" value="3" />
+      </value>
+    </option>
+    <option name="RUBY_CONSTANT_DECLARATION">
+      <value>
+        <option name="FOREGROUND" value="5af78e" />
+        <option name="FONT_TYPE" value="3" />
+      </value>
+    </option>
+    <option name="RUBY_CVAR">
+      <value>
+        <option name="FOREGROUND" value="ff6ac1" />
+        <option name="FONT_TYPE" value="2" />
+      </value>
+    </option>
+    <option name="RUBY_ESCAPE_SEQUENCE">
+      <value>
+        <option name="FOREGROUND" value="9aedfe" />
+        <option name="FONT_TYPE" value="1" />
+      </value>
+    </option>
+    <option name="RUBY_EXPR_IN_STRING">
+      <value>
+        <option name="BACKGROUND" value="1c1f2b" />
+      </value>
+    </option>
+    <option name="RUBY_GVAR">
+      <value>
+        <option name="FOREGROUND" value="ff6ac1" />
+        <option name="FONT_TYPE" value="1" />
+      </value>
+    </option>
+    <option name="RUBY_HASH_ASSOC">
+      <value>
+        <option name="FOREGROUND" value="9aedfe" />
+        <option name="FONT_TYPE" value="2" />
+      </value>
+    </option>
+    <option name="RUBY_HEREDOC_CONTENT">
+      <value>
+        <option name="FOREGROUND" value="9aedfe" />
+        <option name="FONT_TYPE" value="1" />
+      </value>
+    </option>
+    <option name="RUBY_HEREDOC_ID">
+      <value>
+        <option name="FOREGROUND" value="5af78e" />
+        <option name="FONT_TYPE" value="1" />
+        <option name="EFFECT_COLOR" value="5af78e" />
+        <option name="EFFECT_TYPE" value="1" />
+      </value>
+    </option>
+    <option name="RUBY_IDENTIFIER">
+      <value>
+        <option name="FOREGROUND" value="f3f99d" />
+      </value>
+    </option>
+    <option name="RUBY_INTERPOLATED_STRING">
+      <value>
+        <option name="FOREGROUND" value="5af78e" />
+        <option name="FONT_TYPE" value="1" />
+      </value>
+    </option>
+    <option name="RUBY_IVAR">
+      <value>
+        <option name="FOREGROUND" value="ff6ac1" />
+        <option name="FONT_TYPE" value="1" />
+      </value>
+    </option>
+    <option name="RUBY_KEYWORD">
+      <value>
+        <option name="FOREGROUND" value="ff6ac1" />
+        <option name="FONT_TYPE" value="1" />
+      </value>
+    </option>
+    <option name="RUBY_LINE_CONTINUATION">
+      <value>
+        <option name="BACKGROUND" value="3c3f41" />
+      </value>
+    </option>
+    <option name="RUBY_LOCAL_VAR_ID">
+      <value>
+        <option name="FOREGROUND" value="9aedfe" />
+        <option name="FONT_TYPE" value="2" />
+      </value>
+    </option>
+    <option name="RUBY_METHOD_NAME">
+      <value>
+        <option name="FOREGROUND" value="9aedfe" />
+        <option name="FONT_TYPE" value="2" />
+      </value>
+    </option>
+    <option name="RUBY_NTH_REF">
+      <value>
+        <option name="FOREGROUND" value="9aedfe" />
+        <option name="FONT_TYPE" value="1" />
+      </value>
+    </option>
+    <option name="RUBY_NUMBER">
+      <value>
+        <option name="FOREGROUND" value="9aedfe" />
+      </value>
+    </option>
+    <option name="RUBY_OPERATION_SIGN">
+      <value>
+        <option name="FOREGROUND" value="f3f99d" />
+      </value>
+    </option>
+    <option name="RUBY_PARAMETER_ID">
+      <value>
+        <option name="FOREGROUND" value="f3f99d" />
+        <option name="FONT_TYPE" value="2" />
+      </value>
+    </option>
+    <option name="RUBY_REGEXP">
+      <value>
+        <option name="FOREGROUND" value="ff5c57" />
+        <option name="FONT_TYPE" value="1" />
+      </value>
+    </option>
+    <option name="RUBY_STRING">
+      <value>
+        <option name="FOREGROUND" value="5af78e" />
+        <option name="FONT_TYPE" value="1" />
+      </value>
+    </option>
+    <option name="RUBY_SYMBOL">
+      <value>
+        <option name="FOREGROUND" value="f3f99d" />
+        <option name="FONT_TYPE" value="1" />
+      </value>
+    </option>
+    <option name="RUBY_WORDS">
+      <value>
+        <option name="FOREGROUND" value="5af78e" />
         <option name="FONT_TYPE" value="1" />
       </value>
     </option>
