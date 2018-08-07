@@ -22,6 +22,7 @@ I just threw this together for myself, so not all languages are supported yet. F
 
 ## Related
 
+- [ConEmu-snazzy](https://github.com/JordanForeman/ConEmu-snazzy) - ConEmu / cmder version
 - [hyper-snazzy](https://github.com/sindresorhus/hyper-snazzy) - Hyper version
 - [iterm2-snazzy](https://github.com/sindresorhus/iterm2-snazzy) - iTerm2 version
 - [terminal-snazzy](https://github.com/sindresorhus/terminal-snazzy) - Terminal version
